@@ -26,7 +26,7 @@ namespace DenisBaturin.AssemblyQuickInfo.Demo
             Console.WriteLine($"Title: {aqi.Title}");
             Console.WriteLine($"Trademark: {aqi.Trademark}");
             Console.WriteLine($"GUID: {aqi.Guid}");
-            Console.WriteLine($"Culture name: {aqi.NeutralResourcesLanguageCultureName}");
+            Console.WriteLine($"Culture name: {aqi.CultureName}");
             Console.WriteLine($"COM-Visible: {aqi.ComVisible}");
             Console.WriteLine($"Code base: {aqi.CodeBase}");
             Console.WriteLine($"Location: {aqi.Location}");

@@ -104,9 +104,9 @@ namespace DenisBaturin.AssemblyQuickInfo.Core.Tests
                     ActualPropertyValue = new AssemblyQuickInfo(Assembly.GetExecutingAssembly()).Guid,
                     ExpectedPropertyValue = "b07da626-b1aa-4266-b65f-48e355f61a76"
                 },
-                new TestCaseItem("NeutralResourcesLanguageCultureName")
+                new TestCaseItem("CultureName")
                 {
-                    ActualPropertyValue = new AssemblyQuickInfo(Assembly.GetExecutingAssembly()).NeutralResourcesLanguageCultureName,
+                    ActualPropertyValue = new AssemblyQuickInfo(Assembly.GetExecutingAssembly()).CultureName,
                     ExpectedPropertyValue = "en"
                 },
                 new TestCaseItem("ComVisible")
