@@ -1,5 +1,9 @@
 # AssemblyQuickInfo
-AssemblyQuickInfo is the object for quick access to some members of .NET-assembly.
+AssemblyQuickInfo is the library in **C#** for quick access to some members of .NET-assembly.  
+Author: **Denis Baturin**  
+
+    The library was created with the purpose of education and demonstration!  
+Questions and comments can be written here: [vk.com/denisbaturincom](http://vk.com/denisbaturincom)  
 
 ---
 
