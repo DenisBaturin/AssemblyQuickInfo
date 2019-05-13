@@ -1,7 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Denis Baturin</Authors>
+    <Description>The library for quick access to some members of .NET-assembly.</Description>
+    <RepositoryUrl>https://github.com/DenisBaturin/AssemblyQuickInfo</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/DenisBaturin/AssemblyQuickInfo</PackageProjectUrl>
+    <RepositoryType />
+    <PackageTags>assembly quick info denis baturin</PackageTags>
+    <PackageReleaseNotes>The library for quick access to some members of .NET-assembly.
+The library was created with the purpose of education and demonstration!</PackageReleaseNotes>
+    <PackageId>DenisBaturin.AssemblyQuickInfo</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
 </Project>
